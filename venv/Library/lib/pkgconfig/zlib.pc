@@ -1,0 +1,13 @@
+prefix=D:/AI WORKFORCE/RANDOM FOREST AND NAIVE BAYES TASKS (CUSTOMER CHURN)/venv/Library
+exec_prefix=D:/AI WORKFORCE/RANDOM FOREST AND NAIVE BAYES TASKS (CUSTOMER CHURN)/venv/Library
+libdir=D:/AI WORKFORCE/RANDOM FOREST AND NAIVE BAYES TASKS (CUSTOMER CHURN)/venv/Library/lib
+sharedlibdir=D:/AI WORKFORCE/RANDOM FOREST AND NAIVE BAYES TASKS (CUSTOMER CHURN)/venv/Library/lib
+includedir=D:/AI WORKFORCE/RANDOM FOREST AND NAIVE BAYES TASKS (CUSTOMER CHURN)/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
