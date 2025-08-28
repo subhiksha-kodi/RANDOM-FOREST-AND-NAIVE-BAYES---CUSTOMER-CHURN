@@ -5,7 +5,12 @@ This project predicts whether a telecom customer will churn based on:
 - Tenure (in months)
 - Number of Support Calls
 - Contract Type (Month-to-month, One year, Two year)
+---
 
+🚀 **Try the App:**  
+👉 [Click here to open the Streamlit App](https://random-forest-and-naive-bayes---customer-churn-ah3bmyukyky8gzm.streamlit.app/)
+
+---
 ## How to Run
 
 1. Install dependencies:
@@ -23,20 +28,39 @@ This project predicts whether a telecom customer will churn based on:
 
 ## Visualizations
 
-- plots/churn_distribution.png  
-  ➤ Shows the number of customers who churned vs. those who stayed. Useful to understand class imbalance.
+### 1. Churn Distribution  
+![Churn Distribution](plots/churn_distribution.png)
 
-- plots/churn_gender.png  
-  ➤ Compares churn rates across male and female customers to detect any gender-based trends.
+Shows the number of customers who churned vs. those who stayed. Useful to understand class imbalance.
 
-- plots/heatmap.png  
-  ➤ Correlation heatmap between numerical features like tenure, monthly charges, and total charges.
+---
 
-- plots/pie.png  
-  ➤ Pie chart showing distribution of payment methods (e.g., credit card, electronic check, etc.)
+### 2. Churn by Gender  
+![Churn by Gender](plots/churn_gender.png)
 
-- plots/roc.png  
-  ➤ ROC curve showing model performance. AUC score indicates how well the model distinguishes churn vs non-churn.
+Compares churn rates across male and female customers to detect any gender-based trends.
+
+---
+
+### 3. Feature Correlation Heatmap  
+![Heatmap](plots/heatmap.png)
+
+Shows correlation between numerical features like tenure, monthly charges, etc.
+
+---
+
+### 4. Payment Method Pie Chart  
+![Pie Chart](plots/pie.png)
+
+Displays the proportion of different payment methods used by customers.
+
+---
+
+### 5. ROC Curve  
+![ROC Curve](plots/roc.png)
+
+Visualizes model performance. AUC score shows how well churn is predicted.
+
 
 ## Conclusion
 
