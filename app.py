@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# Load the model and scaler
 model = pickle.load(open("model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))  # Make sure you saved this during training
 
@@ -25,7 +24,6 @@ if st.button("Predict Churn"):
         "Contract": contract_encoded
     }])
 
-    # Scale the input
     input_scaled = scaler.transform(input_df)
 
     prediction = model.predict(input_scaled)[0]
